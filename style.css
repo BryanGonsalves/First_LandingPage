@@ -1,0 +1,101 @@
+/* Existing CSS */
+body {
+    margin: 0;
+    background: #1f2937;
+    font-family: Besley, serif;
+}
+
+.header {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-image {
+    background: white;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: white;
+    padding: 8px 24px;
+}
+
+.right,
+.left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right {
+    padding-right: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+/* New CSS for body content */
+.body-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-container {
+    flex: 1; /* Take up remaining space */
+    display: flex; /* Set display to flex */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.large-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF; /* Set color to white */
+}
+
+.small-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px; /* Add margin to separate large and small text */
+}
+
+.body-content p {
+    line-height: 1.6;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.body-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Adjust margin between text and image */
+}
+
+.image {
+    margin-left: 20px; /* Adjust margin between text container and image */
+}
