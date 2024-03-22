@@ -99,3 +99,43 @@ ul {
     color:#E5E7EB;
     
 }
+.body-content2
+{
+    display:flex;
+    justify-content: center;
+    gap:52px
+}
+
+.info
+{
+  width:200px
+
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .container
+  {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    gap:52px
+  }
+  
+.info
+{
+    width:200px
+
+}
+  
